@@ -329,7 +329,7 @@ color: #b4b4b4;
   overflow: hidden;
   display: flex;
   align-items: center;
-  justify-content: end;
+  justify-content: flex-end;
 }
 .product-section-2 .card{
   position: absolute;

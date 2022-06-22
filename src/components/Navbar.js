@@ -1,4 +1,3 @@
-import { AppBar, Box, Toolbar, Typography, Button } from '@mui/material';
 import { NavLink } from 'react-router-dom';
 import MenuIcon from '@mui/icons-material/Menu';
 import MenuOpenIcon from '@mui/icons-material/MenuOpen';
@@ -11,7 +10,7 @@ const Navbar = () => {
 
 // document.getElementById('menubar').classList.toggle('menuopen');
   
-    if(navbar==0){
+    if(navbar===0){
 
         document.getElementById("menubar").style.width = "100%";
         changeNavbar(1);
@@ -28,14 +27,14 @@ const Navbar = () => {
             <div className="row">
                 <div className="logo my-3 my-md-4 col-12 d-flex justify-content-center align-item-center">
 
-                <img src="/images/logo.png"/>
+                <img src="/images/logo.png" alt=""/>
                 
                 </div>
             </div>
             <div id="menubar" className="row">
                 
                     <div className="d-none d-md-block col-3 col-md-1 col-lg-2">
-                        <img src="/images/search.svg"/>
+                        <img src="/images/search.svg" alt=""/>
                     </div>
                     <div className="col-12 col-md-6 d-flex d-md-block justify-content-center col-md-9 col-lg-8">
                         
@@ -54,17 +53,17 @@ const Navbar = () => {
                         </ul>     
                     </div>
                     <div className="col-3 col-md-2 col-lg-2 navbar-icons d-none d-md-block">
-                        <img className="icon" src='/images/cart.svg'/>
-                        <img className="icon" src='/images/favorites.svg'/>
-                        <img className="icon" src='/images/profile.svg'/>
+                        <img className="icon" src='/images/cart.svg' alt=""/>
+                        <img className="icon" src='/images/favorites.svg' alt=""/>
+                        <img className="icon" src='/images/profile.svg' alt=""/>
                     </div>
                   
             </div>
                     <div id='hamburger'>
-                        {navbar==0?<MenuIcon  onClick={openMenu}/>:<MenuOpenIcon  onClick={openMenu}/>}
+                        {navbar===0?<MenuIcon  onClick={openMenu}/>:<MenuOpenIcon  onClick={openMenu}/>}
                     </div>
                     <div className="cart-icon d-md-none">
-                    <img  src='/images/cart.svg'/>
+                    <img  src='/images/cart.svg' alt=""/>
                     </div>
         </div>
             
