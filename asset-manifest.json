@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/ecommerce-landing-page/static/css/main.94faa446.css",
-    "main.js": "/ecommerce-landing-page/static/js/main.15ef4223.js",
-    "static/js/787.a91053ce.chunk.js": "/ecommerce-landing-page/static/js/787.a91053ce.chunk.js",
-    "static/media/home_bg.png": "/ecommerce-landing-page/static/media/home_bg.2023059c20d4c8679d82.png",
-    "index.html": "/ecommerce-landing-page/index.html",
-    "main.94faa446.css.map": "/ecommerce-landing-page/static/css/main.94faa446.css.map",
-    "main.15ef4223.js.map": "/ecommerce-landing-page/static/js/main.15ef4223.js.map",
-    "787.a91053ce.chunk.js.map": "/ecommerce-landing-page/static/js/787.a91053ce.chunk.js.map"
+    "main.css": "//localhost:3000/ecommerce-landing-page/static/media/home_bg.2023059c20d4c8679d82.png/static/css/main.01bf732a.css",
+    "main.js": "//localhost:3000/ecommerce-landing-page/static/media/home_bg.2023059c20d4c8679d82.png/static/js/main.fea1985a.js",
+    "static/js/787.a91053ce.chunk.js": "//localhost:3000/ecommerce-landing-page/static/media/home_bg.2023059c20d4c8679d82.png/static/js/787.a91053ce.chunk.js",
+    "static/media/home_bg.png": "//localhost:3000/ecommerce-landing-page/static/media/home_bg.2023059c20d4c8679d82.png/static/media/home_bg.2023059c20d4c8679d82.png",
+    "index.html": "//localhost:3000/ecommerce-landing-page/static/media/home_bg.2023059c20d4c8679d82.png/index.html",
+    "main.01bf732a.css.map": "//localhost:3000/ecommerce-landing-page/static/media/home_bg.2023059c20d4c8679d82.png/static/css/main.01bf732a.css.map",
+    "main.fea1985a.js.map": "//localhost:3000/ecommerce-landing-page/static/media/home_bg.2023059c20d4c8679d82.png/static/js/main.fea1985a.js.map",
+    "787.a91053ce.chunk.js.map": "//localhost:3000/ecommerce-landing-page/static/media/home_bg.2023059c20d4c8679d82.png/static/js/787.a91053ce.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.94faa446.css",
-    "static/js/main.15ef4223.js"
+    "static/css/main.01bf732a.css",
+    "static/js/main.fea1985a.js"
   ]
 }
