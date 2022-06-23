@@ -52,7 +52,7 @@ const Navbar = () => {
                         
                         </ul>     
                     </div>
-                    <div className="col-3 col-md-2 col-lg-2 navbar-icons d-none d-md-block">
+                    <div className="col-3 col-md-2 col-lg-2 navbar-icons d-none d-md-block p-0 p-lg-auto">
                         <img className="icon" src='/images/cart.svg' alt=""/>
                         <img className="icon" src='/images/favorites.svg' alt=""/>
                         <img className="icon" src='/images/profile.svg' alt=""/>
