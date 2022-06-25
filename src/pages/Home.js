@@ -1,12 +1,13 @@
+import { Link } from "react-router-dom";
 import { NavLink } from "react-router-dom";
 const Home = () => {
   return (
     <>
       <div
-        className="rectangle-img p-0 container-fluid"
+        className="home rectangle-img p-0 container-fluid"
         syle={{ backGroundImage: 'url("/images/home_bg.png")' }}
       >
-        {/* <img src="/images/home_bg.png" /> */}
+        {/* <img src="/ecommerce-landing-page/images/home_bg.png" /> */}
 
         <div className="card">
           <div className="card-body p-4">
@@ -19,7 +20,7 @@ const Home = () => {
             </p>
 
             <button className="btn btn-white my-3">
-              <NavLink to="#" className="card-link">
+              <NavLink to="/catalog" className="card-link">
                 Learn More
               </NavLink>
             </button>
@@ -43,33 +44,42 @@ const Home = () => {
           </div>
           <div className="product-section-1 d-none d-md-flex">
             <div className="bathroom-tiles me-2">
-              <img src="/images/product_bg_1.png" alt="" />
+              <img src="/ecommerce-landing-page/images/product_bg_1.png" alt="" />
+              <Link to="/catalog">
               <div className="product-picture-caption">
                 <div className="caption-title">Bathroom Tiles</div>
                 <div className="caption-text">Ante mus blandit sapien sociosqu per consequat ad.</div>
               </div>
+              </Link>
             </div>
             <div className="marble me-2">
-              <img src="/images/product_bg_2.png" alt="" />
+              <img src="/ecommerce-landing-page/images/product_bg_2.png" alt="" />
+              <Link to="/catalog">
               <div className="product-picture-caption">
                 <div className="caption-title">Marble</div>
                 <div className="caption-text">Ante mus blandit sapien sociosqu</div>
               </div>
+              </Link>
             </div>
             <div className="product-section-1-sub">
               <div className="outdoor me-2">
-                <img src="/images/product_bh3.png" alt="" />
+                <img src="/ecommerce-landing-page/images/product_bh3.png" alt="" />
+              <Link to="/catalog">
+                
                 <div className="product-picture-caption">
                   <div className="caption-title">Outdoor Flooring</div>
                   <div className="caption-text">Ante mus blandit sapien sociosqu per consequat ad.</div>
                 </div>
+                </Link>
               </div>
               <div className="kitchen">
-                <img src="/images/product_bg_4.png" alt="" />
+                <img src="/ecommerce-landing-page/images/product_bg_4.png" alt="" />
+              <Link to="/catalog">
                 <div className="product-picture-caption">
                   <div className="caption-title">Kitchen Interior</div>
                   <div className="caption-text">Ante mus blandit sapien sociosqu per consequat ad.</div>
                 </div>
+                </Link>
               </div>
             </div>
           </div>
@@ -83,28 +93,32 @@ const Home = () => {
             </div>
             <div className="carousel-inner">
               <div className="carousel-item active">
-              <img src="/images/product_bg_1.png" className="d-block w-100" alt="" />
+              <img src="/ecommerce-landing-page/images/product_bg_1.png" className="d-block w-100" alt="" />
+              <Link to="/catalog">
               <div className="product-picture-caption">
                 <div className="caption-title">Bathroom Tiles</div>
                 <div className="caption-text">Ante mus blandit sapien sociosqu per consequat ad.</div>
               </div>
+              </Link>
               </div>
               <div className="carousel-item">
-              <img src="/images/product_bg_2.png" className="d-block w-100" alt="" />
+              <img src="/ecommerce-landing-page/images/product_bg_2.png" className="d-block w-100" alt="" />
+              <Link to="/catalog">
               <div className="product-picture-caption">
                 <div className="caption-title">Marble</div>
                 <div className="caption-text">Ante mus blandit sapien sociosqu</div>
               </div>
+              </Link>
               </div>
               <div className="carousel-item">
-              <img src="/images/product_bh3.png" className="d-block w-100" alt="" />
+              <img src="/ecommerce-landing-page/images/product_bh3.png" className="d-block w-100" alt="" />
                 <div className="product-picture-caption">
                   <div className="caption-title">Outdoor Flooring</div>
                   <div className="caption-text">Ante mus blandit sapien sociosqu per consequat ad.</div>
                 </div>
               </div>
               <div className="carousel-item">
-              <img src="/images/product_bg_4.png" className="d-block w-100" alt="" />
+              <img src="/ecommerce-landing-page/images/product_bg_4.png" className="d-block w-100" alt="" />
                 <div className="product-picture-caption">
                   <div className="caption-title">Kitchen Interior</div>
                   <div className="caption-text">Ante mus blandit sapien sociosqu per consequat ad.</div>
@@ -122,7 +136,7 @@ const Home = () => {
           </div>
 {/* carousel ends */}
           <div className="product-section-2">
-            <img src="/images/vision_bg.png" alt="" />
+            <img src="/ecommerce-landing-page/images/vision_bg.png" alt="" />
             <div className="card">
               <div className="card-body p-4 py-md-1 p-lg-4">
                 <h2 className="card-title py-2">Vision</h2>
@@ -160,9 +174,9 @@ const Home = () => {
                 </div>
               </div>
               <div className="3-image py-1 col-12 d-none d-md-flex justify-content-between pe-md-5">
-                <img className="col-12 col-md-3" src="/images/creative_solution_1.png" alt="" />
-                <img className="col-12 col-md-3" src="/images/creative_solution_2.png" alt="" />
-                <img className="col-12 col-md-3" src="/images/creative_solution_3.png" alt="" />
+                <img className="col-12 col-md-3" src="/ecommerce-landing-page/images/creative_solution_1.png" alt="" />
+                <img className="col-12 col-md-3" src="/ecommerce-landing-page/images/creative_solution_2.png" alt="" />
+                <img className="col-12 col-md-3" src="/ecommerce-landing-page/images/creative_solution_3.png" alt="" />
                 {/* <div className="col-1"></div> */}
               </div>
 
@@ -174,7 +188,7 @@ const Home = () => {
             </div>
 
             <div className="product-section-3-right col-4 d-none d-md-block col-lg-4 flex-grow-1">
-              <img src="/images/creative_solution_4.png" alt="" />
+              <img src="/ecommerce-landing-page/images/creative_solution_4.png" alt="" />
               <div className="watch-video-box"></div>
             </div>
           </div>
@@ -190,19 +204,19 @@ const Home = () => {
             </div>
             <div className="carousel-inner">
               <div className="carousel-item active">
-              <img className="col-12 col-md-3" src="/images/creative_solution_1.png" alt="" />
+              <img className="col-12 col-md-3" src="/ecommerce-landing-page/images/creative_solution_1.png" alt="" />
 
               </div>
               <div className="carousel-item">
-              <img className="col-12 col-md-3" src="/images/creative_solution_2.png" alt="" />
+              <img className="col-12 col-md-3" src="/ecommerce-landing-page/images/creative_solution_2.png" alt="" />
 
               </div>
               <div className="carousel-item">
-              <img className="col-12 col-md-3" src="/images/creative_solution_3.png" alt="" />
+              <img className="col-12 col-md-3" src="/ecommerce-landing-page/images/creative_solution_3.png" alt="" />
 
               </div>
               <div className="carousel-item">
-              <img className="col-12 col-md-3" src="/images/creative_solution_4.png" alt="" />
+              <img className="col-12 col-md-3" src="/ecommerce-landing-page/images/creative_solution_4.png" alt="" />
 
               </div>
             </div>
@@ -230,28 +244,28 @@ const Home = () => {
           </div>
           <div className="projects-image-container d-none d-md-flex justify-content-between">
             <div className="image-card  px-1 col-3">
-              <img className="project-image w-100 h-auto" src="/images/project_1.png" alt=""  />
+              <img className="project-image w-100 h-auto" src="/ecommerce-landing-page/images/project_1.png" alt=""  />
               <div className="text text-center my-4">
                 <div className="image-title fw-bold fs-5">Kingdom Tower</div>
                 <div className="image-text">Marble Flooring</div>
               </div>
             </div>
             <div className="image-card  px-1 col-3">
-              <img className="project-image w-100 h-auto" src="/images/project_2.png" alt=""  />
+              <img className="project-image w-100 h-auto" src="/ecommerce-landing-page/images/project_2.png" alt=""  />
               <div className="text text-center my-4">
                 <div className="image-title fw-bold fs-5">Dubai mall</div>
                 <div className="image-text">Wood Flooring</div>
               </div>
             </div>
             <div className="image-card  px-1 col-3">
-              <img className="project-image w-100 h-auto" src="/images/project_3.png" alt=""  />
+              <img className="project-image w-100 h-auto" src="/ecommerce-landing-page/images/project_3.png" alt=""  />
               <div className="text text-center my-4">
                 <div className="image-title fw-bold fs-5">King Road Offices</div>
                 <div className="image-text">Outdoor Flooring</div>
               </div>
             </div>
             <div className="image-card  px-1 col-3">
-              <img className="project-image w-100 h-auto" src="/images/project_4.png" alt=""  />
+              <img className="project-image w-100 h-auto" src="/ecommerce-landing-page/images/project_4.png" alt=""  />
               <div className="text text-center my-4">
                 <div className="image-title fw-bold fs-5">Beach Tower Alupang</div>
                 <div className="image-text">Wood Flooring</div>
@@ -268,7 +282,7 @@ const Home = () => {
             </div>
             <div className="carousel-inner">
               <div className="carousel-item active">
-                <img src="/images/project_1.png" className="d-block w-100" alt="..."/>
+                <img src="/ecommerce-landing-page/images/project_1.png" className="d-block w-100" alt="..."/>
                 
                 <div className="carousel-caption mt-5 d-none d-md-block">
                   <h5>Kingdom Tower</h5>
@@ -276,7 +290,7 @@ const Home = () => {
                 </div>
               </div>
               <div className="carousel-item">
-                <img src="/images/project_2.png" className="d-block w-100" alt="..."/>
+                <img src="/ecommerce-landing-page/images/project_2.png" className="d-block w-100" alt="..."/>
 
                 <div className="carousel-caption mt-5 d-none d-md-block">
                   <h5>Dubai mall</h5>
@@ -284,7 +298,7 @@ const Home = () => {
                 </div>
               </div>
               <div className="carousel-item">
-                <img src="/images/project_3.png" className="d-block w-100" alt="..."/>
+                <img src="/ecommerce-landing-page/images/project_3.png" className="d-block w-100" alt="..."/>
 
                 <div className="carousel-caption mt-5 d-none d-md-block">
                   <h5>King Road Offices</h5>
@@ -292,7 +306,7 @@ const Home = () => {
                 </div>
               </div>
               <div className="carousel-item">
-                <img src="/images/project_4.png" className="d-block w-100" alt="..."/>
+                <img src="/ecommerce-landing-page/images/project_4.png" className="d-block w-100" alt="..."/>
 
                 <div className="carousel-caption mt-5 d-none d-md-block">
                   <h5>Beach Tower Alupang</h5>
@@ -334,7 +348,7 @@ const Home = () => {
            
            
             <div className="collection-card mt-5 px-2 col-3">
-              <img className="tile-image w-100 h-auto" src="/images/Tile_1.png" alt="" />
+              <img className="tile-image w-100 h-auto" src="/ecommerce-landing-page/images/Tile_1.png" alt="" />
               <div className="collection-text text-center py-4 shadow-sm">
                 <div className="tile-name fw-bold fs-5">Zurich Vision 60×60</div>
                 <div className="tile-price">
@@ -344,7 +358,7 @@ const Home = () => {
               </div>
             </div>
             <div className="collection-card mt-5 px-2 col-3">
-              <img className="tile-image w-100 h-auto" src="/images/Tile_2.png" alt="" />
+              <img className="tile-image w-100 h-auto" src="/ecommerce-landing-page/images/Tile_2.png" alt="" />
               <div className="collection-text text-center py-4 shadow-sm">
                 <div className="tile-name fw-bold fs-5">Zurich Pearl 60×60</div>
                 <div className="tile-price">
@@ -354,7 +368,7 @@ const Home = () => {
               </div>
             </div>
             <div className="collection-card mt-5 px-2 col-3">
-              <img className="tile-image w-100 h-auto" src="/images/Tile_3.png" alt="" />
+              <img className="tile-image w-100 h-auto" src="/ecommerce-landing-page/images/Tile_3.png" alt="" />
               <div className="collection-text text-center py-4 shadow-sm">
                 <div className="tile-name fw-bold fs-5">Zurich Grey 60×60</div>
                 <div className="tile-price">
@@ -364,7 +378,7 @@ const Home = () => {
               </div>
             </div>
             <div className="collection-card mt-5 px-2 col-3">
-              <img className="tile-image w-100 h-auto" src="/images/Tile_4.png" alt="" />
+              <img className="tile-image w-100 h-auto" src="/ecommerce-landing-page/images/Tile_4.png" alt="" />
               <div className="collection-text text-center py-4 shadow-sm">
                 <div className="tile-name fw-bold fs-5">Zurich Dark Grey 60×60</div>
                 <div className="tile-price">
@@ -374,7 +388,7 @@ const Home = () => {
               </div>
             </div>
             <div className="collection-card mt-5 px-2 col-3">
-              <img className="tile-image w-100 h-auto" src="/images/Tile_5.png" alt="" />
+              <img className="tile-image w-100 h-auto" src="/ecommerce-landing-page/images/Tile_5.png" alt="" />
               <div className="collection-text text-center py-4 shadow-sm">
                 <div className="tile-name fw-bold fs-5">Windsor White Oak</div>
                 <div className="tile-price">
@@ -384,7 +398,7 @@ const Home = () => {
               </div>
             </div>
             <div className="collection-card mt-5 px-2 col-3">
-              <img className="tile-image w-100 h-auto" src="/images/Tile_6.png" alt="" />
+              <img className="tile-image w-100 h-auto" src="/ecommerce-landing-page/images/Tile_6.png" alt="" />
               <div className="collection-text text-center py-4 shadow-sm">
                 <div className="tile-name fw-bold fs-5">Sicily Grey Décor 30×60</div>
                 <div className="tile-price">
@@ -394,7 +408,7 @@ const Home = () => {
               </div>
             </div>
             <div className="collection-card mt-5 px-2 col-3">
-              <img className="tile-image w-100 h-auto" src="/images/Tile_7.png" alt="" />
+              <img className="tile-image w-100 h-auto" src="/ecommerce-landing-page/images/Tile_7.png" alt="" />
               <div className="collection-text text-center py-4 shadow-sm">
                 <div className="tile-name fw-bold fs-5">Sardinia White</div>
                 <div className="tile-price">
@@ -404,7 +418,7 @@ const Home = () => {
               </div>
             </div>
             <div className="collection-card mt-5 px-2 col-3">
-              <img className="tile-image w-100 h-auto" src="/images/Tile_8.png" alt="" />
+              <img className="tile-image w-100 h-auto" src="/ecommerce-landing-page/images/Tile_8.png" alt="" />
               <div className="collection-text text-center py-4 shadow-sm">
                 <div className="tile-name fw-bold fs-5">Sicily Grey 30×60</div>
                 <div className="tile-price">
@@ -424,8 +438,8 @@ const Home = () => {
           </div>
         </div>
 
-        <div className="showroom-container flex-column-reverse flex-md-row d-flex mw-100 my-5 pt-5">
-          <img className="col-12 col-md-6 mx-2" src="/images/our_showroom.png" alt="" />
+        <div id="showroom" className="showroom-container flex-column-reverse flex-md-row d-flex mw-100 my-5 pt-5">
+          <img className="col-12 col-md-6 mx-2" src="/ecommerce-landing-page/images/our_showroom.png" alt="" />
           <div className="container d-flex flex-column justify-content-center mx-2 px-4 mx-md-auto px-md-auto col-12 col-md-6">
             <div className="card ">
               <div className="card-body p-4">
